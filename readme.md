@@ -44,9 +44,9 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
 
 ### Consultas Diversas
 
-- **Endpoint:** `/completa-plus`
+- **Endpoint:** `/boa-vista-scpc-score`
 - **Método:** POST
-- **Descrição:** Consulta Completa Plus.
+- **Descrição:** boa vista scpc score.
 - **Body:**
 
   ```json
@@ -56,9 +56,9 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
   }
   ```
 
-- **Endpoint:** `/serasaCredNet/pf`
+- **Endpoint:** `/ccf-protesto-nacional`
 - **Método:** POST
-- **Descrição:** Consulta Serasa cred net para pessoa fisica.
+- **Descrição:** Consulta CCF protesto nacional.
 - **Body:**
 
   ```json
@@ -67,9 +67,9 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
   }
   ```
 
-- **Endpoint:** `/serasaCredNetBasica/pf`
+- **Endpoint:** `/consulta-integrador`
 - **Método:** POST
-- **Descrição:** Consulta Serasa cred net basica para pessoa fisica.
+- **Descrição:** Consulta integrador.
 - **Body:**
 
   ```json
@@ -78,9 +78,9 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
   }
   ```
 
-- **Endpoint:** `/serasaCredNet/pj`
+- **Endpoint:** `/protesto-nacional`
 - **Método:** POST
-- **Descrição:** Consulta Serasa cred net para pessoa juridica.
+- **Descrição:** Consulta protesto nacional.
 - **Body:**
 
   ```json
@@ -89,9 +89,31 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
   }
   ```
 
-- **Endpoint:** `/serasaCredNetBasica/pj`
+- **Endpoint:** `/relatorio-basico-score-cpf`
 - **Método:** POST
-- **Descrição:** Consulta Serasa cred net basica para pessoa juridica.
+- **Descrição:** Consulta de relatorio basico score para cpf.
+- **Body:**
+
+  ```json
+  {
+    "doc": "cpf_sem_pontuacoes"
+  }
+  ```
+
+- **Endpoint:** `/serasa-cnpj`
+- **Método:** POST
+- **Descrição:** Consulta de serasa para CNPJ.
+- **Body:**
+
+  ```json
+  {
+    "doc": "cpf_sem_pontuacoes"
+  }
+  ```
+
+- **Endpoint:** `/serasa-score-cpf`
+- **Método:** POST
+- **Descrição:** Consulta de serasa + score para CPF.
 - **Body:**
 
   ```json
