@@ -28,7 +28,9 @@ Esta documentação descreve as rotas disponíveis na API de consultas. Todas as
 
   ```json
   {
-    "doc": "cpf_sem_pontuacoes"
+    "doc": "cpf_sem_pontuacoes",
+    "referenceYear": string,
+    "referenceMonth": string
   }
   ```
 
